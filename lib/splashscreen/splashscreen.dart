@@ -21,7 +21,7 @@ class _SplashscreenState extends State<Splashscreen> {
           )
         ],
       ),
-      nextScreen: Login(),
+      nextScreen: const Login(),
       splashIconSize: double.infinity,
       backgroundColor: Colors.white,
     );
