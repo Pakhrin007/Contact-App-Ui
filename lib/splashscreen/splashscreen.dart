@@ -1,6 +1,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/splashscreen/login.dart';
+import 'package:flutter_application_1/signuploginandforgotpages/signin.dart';
 import 'package:lottie/lottie.dart';
 
 class Splashscreen extends StatefulWidget {
@@ -21,7 +21,7 @@ class _SplashscreenState extends State<Splashscreen> {
           )
         ],
       ),
-      nextScreen: const Login(),
+      nextScreen: const Signin(),
       splashIconSize: double.infinity,
       backgroundColor: Colors.white,
     );
