@@ -16,7 +16,7 @@ class _ForgotpasswordState extends State<Forgotpassword> {
         Padding(
           padding: const EdgeInsets.only(top: 100),
           child: Container(
-            child: TextField(
+            child: const TextField(
               decoration: InputDecoration(
                   hintText: "Enter your email",
                   label: Text("Email"),
@@ -24,14 +24,14 @@ class _ForgotpasswordState extends State<Forgotpassword> {
             ),
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
         Container(
           height: 40,
           width: 120,
           decoration: BoxDecoration(color: Colors.red.shade200),
-          child: Center(child: Text("Send Link")),
+          child: const Center(child: Text("Send Link")),
         )
       ],
     ));
